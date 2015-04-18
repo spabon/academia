@@ -180,3 +180,12 @@ footer .legal h2{
 	color: white;
 	text-shadow: #b86d21 1px 1px 0;
 }
+.slideshow-wrapper{
+	border-bottom: 1px solid #E78931;
+	border-top: 1px solid #E78931;
+	margin-bottom: 55px;
+}
+
+.orbit-bullets{
+	display: none;
+}
