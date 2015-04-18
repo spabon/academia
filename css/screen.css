@@ -155,3 +155,28 @@ footer .legal{
 footer .legal h2{
 	display: none;
 }
+#navigation h2{
+	display: none;
+}
+
+#navigation nav {
+	background: #3D678C;
+}
+
+#navigation nav .top-bar-section ul li{
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+#navigation nav .top-bar-section ul li a{
+	background: #3D678C;
+	color: white;
+	font-size: 12px;
+	text-shadow: #264c6c 1px 1px 0;
+}
+
+#navigation nav .top-bar-section ul li a.active{
+	background: #E78931;
+	color: white;
+	text-shadow: #b86d21 1px 1px 0;
+}
