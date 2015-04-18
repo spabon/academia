@@ -211,3 +211,42 @@ footer .legal h2{
 	height: 100%;
 	width: 100%;
 }
+aside{
+	margin-top: 75px;
+}
+
+aside h2{
+	color: #0c5390;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+aside h2:after{
+	content: "Â»";
+	padding-left: 5px;
+}
+
+aside article{
+	border-bottom: 1px solid #CCC;
+}
+
+aside article h3{
+	color: #005392;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+aside article p{
+	font-size: 12px;
+}
+
+aside article img.left{
+	height: 40px;
+	margin: 0 20px 0 0;
+	width: 60px;
+}
