@@ -189,3 +189,25 @@ footer .legal h2{
 .orbit-bullets{
 	display: none;
 }
+#gallery{
+	border-top: 1px solid #E78931;
+}
+
+#gallery h2{
+	color: #005392;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 24px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	margin: 24px 0 36px 0;
+}
+
+#gallery h2:after{
+	content: "Â»";
+	padding-left: 5px;
+}
+
+#gallery img{
+	height: 100%;
+	width: 100%;
+}
