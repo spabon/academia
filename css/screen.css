@@ -250,3 +250,67 @@ aside article img.left{
 	margin: 0 20px 0 0;
 	width: 60px;
 }
+#sections{
+	margin-top: 75px;
+}
+
+#sections h2{
+	display: none;
+}
+
+#sections p{
+	border-bottom: 1px solid #CCC;
+	font-size: 11px;
+	margin: 0;
+	padding: 0 0 10px 0;
+	text-transform: uppercase;
+}
+
+#sections > ul{
+	margin: 0;
+	padding: 0;
+}
+
+#sections > ul > li{
+	border-bottom: 1px solid #CCC;
+
+	margin: 0;
+	padding: 0;
+}
+
+#sections > ul > li > a{
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+#sections > ul > li > ul{
+	 border-left: 1px solid #CCC;
+	 padding-left: 10px;
+}
+
+#sections > ul > li > ul li{
+	line-height: 40px;
+	list-style-type: none;
+}
+
+#sections > ul > li > ul li a{
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.side-nav li a:not(.button){
+	padding: 0;
+}
+
+#sections a{
+	color: #0c5390;
+}
+
+#sections a:hover{
+	color: #f99734;
+}
+
+#sections a.active{
+	color: black;
+}
